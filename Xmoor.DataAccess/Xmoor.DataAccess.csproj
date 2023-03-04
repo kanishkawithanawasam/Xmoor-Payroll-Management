@@ -21,6 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bulb.Models\Xmoor.Models.csproj" />
+    <ProjectReference Include="..\Xmoor.Models\Xmoor.Models.csproj" />
   </ItemGroup>
 </Project>

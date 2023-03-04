@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "mI07AnNEAQSmEDPWEzRfn48audn3o5uuowQPlviHctNwLmLab6v6xLdFGzpsywOHlA7RFALX+wsl8kPpNSGf9Q==",
-  "success": false,
+  "dgSpecHash": "hhdcgV/2U3ftTd8bB9E3TMOOLAlHo+doJHOwobv3LE1Yv8gBj0DDwvpcEjqMbuR8tS2/NKSwoJIKcP9hIaI/EA==",
+  "success": true,
   "projectFilePath": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\Xmoor.Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kanis\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -193,24 +193,5 @@
     "C:\\Users\\kanis\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\kanis\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Utility\\Xmoor.Utility.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Utility\\Xmoor.Utility.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.DataAccess\\Xmoor.DataAccess.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.DataAccess\\Xmoor.DataAccess.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

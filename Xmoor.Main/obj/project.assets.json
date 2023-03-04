@@ -3811,6 +3811,48 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Xmoor.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
+          "Xmoor.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Xmoor.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xmoor.DataAccess.dll": {}
+        }
+      },
+      "Xmoor.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Xmoor.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xmoor.Models.dll": {}
+        }
+      },
+      "Xmoor.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Xmoor.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xmoor.Utility.dll": {}
+        }
       }
     }
   },
@@ -11008,18 +11050,34 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Xmoor.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Xmoor.DataAccess/Xmoor.DataAccess.csproj",
+      "msbuildProject": "../Xmoor.DataAccess/Xmoor.DataAccess.csproj"
+    },
+    "Xmoor.Models/1.0.0": {
+      "type": "project",
+      "path": "../Xmoor.Models/Xmoor.Models.csproj",
+      "msbuildProject": "../Xmoor.Models/Xmoor.Models.csproj"
+    },
+    "Xmoor.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Xmoor.Utility/Xmoor.Utility.csproj",
+      "msbuildProject": "../Xmoor.Utility/Xmoor.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.DataAccess\\Xmoor.DataAccess.csproj",
-      "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Utility\\Xmoor.Utility.csproj",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.3",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.4"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.4",
+      "Xmoor.DataAccess >= 1.0.0",
+      "Xmoor.Models >= 1.0.0",
+      "Xmoor.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11049,11 +11107,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.DataAccess\\Xmoor.DataAccess.csproj": {
-              "projectPath": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.DataAccess\\Xmoor.DataAccess.csproj"
+            "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.DataAccess\\Xmoor.DataAccess.csproj": {
+              "projectPath": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.DataAccess\\Xmoor.DataAccess.csproj"
             },
-            "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Utility\\Xmoor.Utility.csproj": {
-              "projectPath": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Utility\\Xmoor.Utility.csproj"
+            "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Models\\Xmoor.Models.csproj": {
+              "projectPath": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Models\\Xmoor.Models.csproj"
+            },
+            "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Utility\\Xmoor.Utility.csproj": {
+              "projectPath": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Utility\\Xmoor.Utility.csproj"
             }
           }
         }
@@ -11119,25 +11180,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Utility\\Xmoor.Utility.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Utility\\Xmoor.Utility.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.DataAccess\\Xmoor.DataAccess.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.DataAccess\\Xmoor.DataAccess.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

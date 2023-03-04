@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "O1/ybhIn64SMZ8AaD0jTWV08srMJ4B8xdbA/USNpqwfCglIWkvR/GM39tZq04bsNAD+AzWBqPhVf2NoOUVb1iA==",
-  "success": false,
+  "dgSpecHash": "MVzxTF9xebSKMTQqWhvqblZ2nVCewtprYvBTqR1jivVsf7o8QLi1MI440iKN8oubrlvp4aZwwgEfgQAt6UCZ4Q==",
+  "success": true,
   "projectFilePath": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.DataAccess\\Xmoor.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kanis\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -76,15 +76,5 @@
     "C:\\Users\\kanis\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\kanis\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Models\\Xmoor.Models.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Models\\Xmoor.Models.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

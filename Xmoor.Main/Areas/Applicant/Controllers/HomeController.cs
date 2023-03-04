@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Xmoor.DataAccess;
+using Xmoor.Main.Areas.Applicant.ViewModels;
 using Xmoor.Main.Areas.GeneralStaff.ViewModels;
 using Xmoor.Models;
 
@@ -49,6 +51,7 @@ namespace Xmoor.Main.Areas.Applicant.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "APPLICANT")]
         public IActionResult RegisterPeronalDetails()
         {
             var user = _db.ApplicationUser.Find(_userManager.GetUserAsync(HttpContext.User).Result.Id);
@@ -57,8 +60,8 @@ namespace Xmoor.Main.Areas.Applicant.Controllers
                 return BadRequest();
             }
 
-
-            return View();
+            RegisterVM registerObj = new RegisterVM();
+            return View(registerObj);
         }
 
 

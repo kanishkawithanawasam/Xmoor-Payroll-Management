@@ -1202,6 +1202,19 @@
             "rid": "win"
           }
         }
+      },
+      "Xmoor.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "7.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Xmoor.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xmoor.Models.dll": {}
+        }
       }
     }
   },
@@ -3588,15 +3601,20 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Xmoor.Models/1.0.0": {
+      "type": "project",
+      "path": "../Xmoor.Models/Xmoor.Models.csproj",
+      "msbuildProject": "../Xmoor.Models/Xmoor.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Models\\Xmoor.Models.csproj",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
+      "Xmoor.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3626,8 +3644,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Models\\Xmoor.Models.csproj": {
-              "projectPath": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Models\\Xmoor.Models.csproj"
+            "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Models\\Xmoor.Models.csproj": {
+              "projectPath": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Models\\Xmoor.Models.csproj"
             }
           }
         }
@@ -3680,16 +3698,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Models\\Xmoor.Models.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Bulb.Models\\Xmoor.Models.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

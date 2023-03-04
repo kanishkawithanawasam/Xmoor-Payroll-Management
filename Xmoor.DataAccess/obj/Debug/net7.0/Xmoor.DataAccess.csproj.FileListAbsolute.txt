@@ -15,3 +15,20 @@ D:\Visual Studio Projects\Bulb-Payroll-Management\Bulb.DataAccess\obj\Debug\net7
 D:\Visual Studio Projects\Bulb-Payroll-Management\Bulb.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.pdb
 D:\Visual Studio Projects\Bulb-Payroll-Management\Bulb.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.genruntimeconfig.cache
 D:\Visual Studio Projects\Bulb-Payroll-Management\Bulb.DataAccess\obj\Debug\net7.0\ref\Xmoor.DataAccess.dll
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\bin\Debug\net7.0\Xmoor.DataAccess.deps.json
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\bin\Debug\net7.0\Xmoor.DataAccess.runtimeconfig.json
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\bin\Debug\net7.0\Xmoor.DataAccess.dll
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\bin\Debug\net7.0\Xmoor.DataAccess.pdb
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\bin\Debug\net7.0\Xmoor.Models.dll
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\bin\Debug\net7.0\Xmoor.Models.pdb
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.AssemblyInfo.cs
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.csproj.CopyComplete
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.dll
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\refint\Xmoor.DataAccess.dll
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.pdb
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\Xmoor.DataAccess.genruntimeconfig.cache
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.DataAccess\obj\Debug\net7.0\ref\Xmoor.DataAccess.dll

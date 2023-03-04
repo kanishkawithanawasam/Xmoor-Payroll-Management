@@ -12,7 +12,7 @@ namespace Xmoor.Models
     {
         [Key]
         public int Id { get; set; }
-
+        [Required]
         public string NationalInsuranceNumber{ get; set; }
         [Required]
         public string Title { get; set; }

@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/Home/RegisterPersonalDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXEhvbWVcUmVnaXN0ZXJQZXJzb25hbERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -24,8 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bulb.DataAccess\Xmoor.DataAccess.csproj" />
-    <ProjectReference Include="..\Bulb.Utility\Xmoor.Utility.csproj" />
+    <ProjectReference Include="..\Xmoor.DataAccess\Xmoor.DataAccess.csproj" />
+    <ProjectReference Include="..\Xmoor.Models\Xmoor.Models.csproj" />
+    <ProjectReference Include="..\Xmoor.Utility\Xmoor.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

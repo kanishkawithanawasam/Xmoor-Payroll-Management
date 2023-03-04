@@ -2,9 +2,9 @@ using Xmoor.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using Xmoor.Utility;
-using Xmoor.Models;
 using Microsoft.Extensions.DependencyInjection;
+using Xmoor.Models;
+using Xmoor.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,11 +40,8 @@ app.UseAuthentication();
 
 app.UseAuthorization();
 app.MapRazorPages();
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllerRoute(
+app.MapControllerRoute(
       name: "areas",
       pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
     );
-});
 app.Run();

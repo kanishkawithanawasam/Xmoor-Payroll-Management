@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s8uQDAQHQmwcb2S9ngZ4hCcbiKjL5Wydo9RLagP9hzs=",
+  "Hash": "voMMIkPfh+Uemn5bmgGa8H1q+43is5NahpvC11qspsk=",
   "Source": "Xmoor.Main",
   "BasePath": "_content/Xmoor.Main",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Xmoor.Main\\wwwroot",
       "Source": "Xmoor.Main",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\kanis\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.3\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Xmoor.Main.styles.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Xmoor.Main.styles.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "Xmoor.Main.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Xmoor.Main.styles.css"
+      "OriginalItemSpec": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Xmoor.Main.styles.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Xmoor.Main.bundle.scp.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Xmoor.Main.bundle.scp.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "Xmoor.Main.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Xmoor.Main.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Xmoor.Main.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\css\\site.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\android-chrome-192x192.png",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\favcon\\android-chrome-192x192.png",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "favcon/android-chrome-192x192.png",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\favcon\\android-chrome-192x192.png"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\android-chrome-512x512.png",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\favcon\\android-chrome-512x512.png",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "favcon/android-chrome-512x512.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\favcon\\android-chrome-512x512.png"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\apple-touch-icon.png",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\favcon\\apple-touch-icon.png",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "favcon/apple-touch-icon.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\favcon\\apple-touch-icon.png"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\browserconfig.xml",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\favcon\\browserconfig.xml",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "favcon/browserconfig.xml",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\favcon\\browserconfig.xml"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\favicon.ico",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\favcon\\favicon.ico",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "favcon/favicon.ico",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\favcon\\favicon.ico"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\favicon-16x16.png",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\favcon\\favicon-16x16.png",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "favcon/favicon-16x16.png",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\favcon\\favicon-16x16.png"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\favicon-32x32.png",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\favcon\\favicon-32x32.png",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "favcon/favicon-32x32.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\favcon\\favicon-32x32.png"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\mstile-150x150.png",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\favcon\\mstile-150x150.png",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "favcon/mstile-150x150.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\favcon\\mstile-150x150.png"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\safari-pinned-tab.svg",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\favcon\\safari-pinned-tab.svg",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "favcon/safari-pinned-tab.svg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\favcon\\safari-pinned-tab.svg"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\site.webmanifest",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\favcon\\site.webmanifest",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "favcon/site.webmanifest",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\favcon\\site.webmanifest"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\js\\site.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\media\\background.JPG",
+      "Identity": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\media\\background.JPG",
       "SourceId": "Xmoor.Main",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\",
+      "ContentRoot": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Main\\wwwroot\\",
       "BasePath": "_content/Xmoor.Main",
       "RelativePath": "media/background.JPG",
       "AssetKind": "All",
