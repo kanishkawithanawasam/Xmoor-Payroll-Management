@@ -1,0 +1,7 @@
+C:\Users\kanis\OneDrive - The University of Nottingham\Personal Projects\C#.NET\Bulb-Payroll-Management\Bulb.Main\obj\Release\net7.0\PubTmp\Out\Bulb.Main.exe
+C:\Users\kanis\OneDrive - The University of Nottingham\Personal Projects\C#.NET\Bulb-Payroll-Management\Bulb.Main\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\kanis\OneDrive - The University of Nottingham\Personal Projects\C#.NET\Bulb-Payroll-Management\Bulb.Main\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\kanis\OneDrive - The University of Nottingham\Personal Projects\C#.NET\Bulb-Payroll-Management\Bulb.Main\obj\Release\net7.0\PubTmp\Out\Bulb.Main.dll
+C:\Users\kanis\OneDrive - The University of Nottingham\Personal Projects\C#.NET\Bulb-Payroll-Management\Bulb.Main\obj\Release\net7.0\PubTmp\Out\Bulb.Main.deps.json
+C:\Users\kanis\OneDrive - The University of Nottingham\Personal Projects\C#.NET\Bulb-Payroll-Management\Bulb.Main\obj\Release\net7.0\PubTmp\Out\Bulb.Main.runtimeconfig.json
+C:\Users\kanis\OneDrive - The University of Nottingham\Personal Projects\C#.NET\Bulb-Payroll-Management\Bulb.Main\obj\Release\net7.0\PubTmp\Out\Bulb.Main.pdb

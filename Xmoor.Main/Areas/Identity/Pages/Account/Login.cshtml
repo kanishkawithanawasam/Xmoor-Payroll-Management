@@ -1,0 +1,65 @@
+﻿@page
+@model LoginModel
+
+@section CSS {
+    <style asp-append-version="ture">
+        body {
+            background-image: url("@Url.Content("~/media/background.jpg")");
+            background-size: 100% !important;
+            background-repeat: no-repeat !important;
+        }
+    </style>
+}
+
+<!--Used as a grid layout for the body of the web pages-->
+<div class="formContainer" id="formContainer">
+    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" >
+        <h1>Login</h1>
+
+        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+        <div class="formRow">
+            <label asp-for="Input.Email" class="form-label">Email</label>
+            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+        <div class="formRow">
+            <label asp-for="Input.Password" class="form-label">Password</label>
+            <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+        
+        <div class="formRow buttonContainer">
+            <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+
+            <button id="registerSubmit" type="submit" class="formButton">Login</button>
+        </div>
+    </form>
+
+    <div class="formTheme">
+        <h1>Welcome to Xmoor</h1>
+        <h5>Payroll and Employee Management System</h5>
+    </div>
+</div>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function centreForm() {
+            const body = document.body;
+            const html = document.documentElement;
+            var header = document.getElementById("desktop-nav");
+            var form = document.getElementById("formContainer");
+            var footer = document.getElementById("footer");
+            const height = screen.height;
+            console.log(height)
+            var setHeight = (height - (footer.offsetHeight + header.offsetHeight + form.offsetHeight)) / 2
+            console.log(header.offsetHeight)
+            console.log(form.offsetHeight)
+            console.log(setHeight);
+            form.style.marginTop = setHeight + "px";
+            footer.style.marginTop = setHeight + "px";
+        }
+        centreForm()
+    </script>
+}

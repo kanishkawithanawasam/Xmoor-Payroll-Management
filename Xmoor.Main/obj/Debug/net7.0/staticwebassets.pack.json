@@ -1,0 +1,305 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Xmoor.Main.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Xmoor.Main.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\favcon\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\favcon\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\favcon\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\favcon\\browserconfig.xml"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favcon\\favicon-16x16.png"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favcon\\favicon-32x32.png"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\favicon.ico",
+      "PackagePath": "staticwebassets\\favcon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\favcon\\mstile-150x150.png"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\safari-pinned-tab.svg",
+      "PackagePath": "staticwebassets\\favcon\\safari-pinned-tab.svg"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\favcon\\site.webmanifest",
+      "PackagePath": "staticwebassets\\favcon\\site.webmanifest"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Visual Studio Projects\\Bulb-Payroll-Management\\Bulb.Main\\wwwroot\\media\\background.JPG",
+      "PackagePath": "staticwebassets\\media\\background.JPG"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Xmoor.Main.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Xmoor.Main.props",
+      "PackagePath": "build\\Xmoor.Main.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Xmoor.Main.props",
+      "PackagePath": "buildMultiTargeting\\Xmoor.Main.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Xmoor.Main.props",
+      "PackagePath": "buildTransitive\\Xmoor.Main.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,217 @@
+:root {
+    --header-bg-color: rgb(40, 40, 66);
+    --header-font-color: rgb(243, 243, 243) !important;
+    --font-color: rgb(211, 211, 211);
+    --bg-color: rgb(239, 239, 255);
+    --element-color: rgb(255, 255, 255);
+    --font: 'Heebo', sans-serif;
+    --header-font-hover: rgb(192, 192, 192) !important;
+    --button-bg-color: rgb(40, 40, 66);
+    --button-color: white;
+}
+
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+#profile {
+    position: relative;
+    display:inline-block;
+
+}
+
+#logoutForm {
+    position: absolute;
+    padding-top:20px;
+    display: none;
+}
+
+#logoutForm button{
+    background-color:var(--header-bg-color);
+    border-radius:5px;
+    color:var(--header-font-color);
+    font-weight:500;
+    padding:4px 10px;
+}
+
+#profile:hover #logoutForm{
+    display:block;
+}
+
+#logoutForm button:hover {
+   
+    color: var(--header-bg-color);
+    cursor:pointer;
+    background:var(--bg-color) !important;
+}
+
+
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+/*Styling for the main navigation/header at desktop view*/
+.desktop-nav {
+    background-color: var(--header-bg-color);
+    display: flex;
+    padding: 5px;
+    padding-left:20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desktop-nav a {
+    font-family: var(--font);
+}
+
+.logo a {
+    font-size: 1.5rem;
+    color: var(--header-font-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.desktop-nav .links {
+    margin-right: 20px;
+}
+
+.links a {
+    font-size: 1.0rem;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--header-font-color);
+}
+
+    .links a:hover,
+    .logo a:hover,
+    .logo a:active,
+    .links a:active {
+        color: var(--header-font-hover);
+    }
+
+/*Styles for the footer*/
+.footer {
+    position:relative!important;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--header-bg-color);
+    color: var(--header-font-color);
+    font-family: var(--font);
+}
+
+
+
+
+/*Styles for the main body grid*/
+.mainContainer {
+    position: relative;
+}
+
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formTheme {
+    background: var(--header-bg-color);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:1200px) {
+    .formTheme{
+        padding:70px;
+    }
+}
+
+
+    .formTheme h1 {
+        font-family: var(--font);
+        font-size: 2rem;
+        color: var(--header-font-color);
+    }
+
+    .formTheme h5 {
+        font-family: var(--font);
+        font-size: 1rem;
+        color: var(--header-font-color);
+    }
+
+.bgImage img {
+    width: 100%;
+}
+
+.mainGrid {
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#registerForm {
+    width: 30%;
+    background: var(--element-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+    #registerForm h1 {
+        font-family: var(--font);
+        color: var(--header-bg-color);
+    }
+
+    #registerForm label,
+    #registerForm input {
+        display: block;
+        font-family: var(--font);
+        font-weight: 500;
+        font-size: 1.2rem;
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    #registerForm input {
+        padding: 5px;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+.formRow {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.buttonContainer {
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.formButton {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    font-family: var(--font);
+    font-weight: 500 !important;
+    background: var(--button-bg-color);
+    border-radius: 5px;
+    color: var(--button-color);
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Bulb.Main.props" />
+</Project>

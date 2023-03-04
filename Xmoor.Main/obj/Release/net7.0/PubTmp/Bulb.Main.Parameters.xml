@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="BulbMain20230216074036" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\kanis\\OneDrive\ -\ The\ University\ of\ Nottingham\\Personal\ Projects\\C\#\.NET\\Bulb-Payroll-Management\\Bulb\.Main\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
