@@ -3832,7 +3832,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.Extensions.Identity.Stores": "7.0.3"
+          "Microsoft.Extensions.Identity.Stores": "7.0.3",
+          "Xmoor.Utility": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Xmoor.Models.dll": {}

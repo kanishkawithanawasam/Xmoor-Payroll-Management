@@ -1,4 +1,4 @@
-namespace Xmoor.Main.Models
+namespace Xmoor.Models
 {
     public class ErrorViewModel
     {

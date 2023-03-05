@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations.Schema;
+using Xmoor.Utility;
 
 namespace Xmoor.Models
 {
@@ -17,6 +18,6 @@ namespace Xmoor.Models
 
         public string RegStatus = "UNREQUESTED";
 
-        public string UserStatus = "APPLICANT";
+        public string UserStatus = StaticDetails.Role_Applicant;
     }
 }

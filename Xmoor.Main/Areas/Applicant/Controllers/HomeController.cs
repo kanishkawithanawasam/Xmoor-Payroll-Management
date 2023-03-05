@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Xmoor.DataAccess;
 using Xmoor.Main.Areas.Applicant.ViewModels;
-using Xmoor.Main.Areas.GeneralStaff.ViewModels;
+using Xmoor.Utility;
 using Xmoor.Models;
 
 namespace Xmoor.Main.Areas.Applicant.Controllers
 {
-    [Area("APPLICANT")]
+    [Area("Applicant")]
     public class HomeController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
@@ -50,20 +50,29 @@ namespace Xmoor.Main.Areas.Applicant.Controllers
             }
         }
 
-        [HttpGet]
-        [Authorize(Roles = "APPLICANT")]
-        public IActionResult RegisterPeronalDetails()
-        {
-            var user = _db.ApplicationUser.Find(_userManager.GetUserAsync(HttpContext.User).Result.Id);
-            if (user == null)
-            {
-                return BadRequest();
-            }
 
+        [HttpGet]
+        [Authorize(Roles = StaticDetails.Role_Applicant)]
+        public IActionResult RegisterPersonalDetails() {
+            var user = _db.ApplicationUser.Find(_userManager.GetUserAsync(HttpContext.User).Result.Id);
             RegisterVM registerObj = new RegisterVM();
+            registerObj.StaffPersonalDetails.Email = user.Email;
             return View(registerObj);
+        
         }
 
+
+        [HttpPost]
+        [Authorize(Roles = StaticDetails.Role_Applicant)]
+        public IActionResult RegisterPersonalDetails(RegisterVM registerObj)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(registerObj);
+            }
+
+            return RedirectToAction("Index");
+        }
 
     }
 }

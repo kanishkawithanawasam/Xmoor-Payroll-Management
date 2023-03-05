@@ -1,14 +1,9 @@
-﻿using Xmoor.Models;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Xmoor.Models;
 
 namespace Xmoor.Main.Areas.Applicant.ViewModels
 {
     
-    public class Titles
-    {
-        public string Title { get; set; }
-    }
-
-
     /// <summary>
     ///  This class is used as a veiw model for the Create 
     ///  View.
@@ -21,20 +16,20 @@ namespace Xmoor.Main.Areas.Applicant.ViewModels
         // Used for the object
         public StaffPersonalDetails StaffPersonalDetails { get; set; }
 
-        public List<Titles> Title { get; set; }
+        public List<SelectListItem> TitlesList { get; set; }
 
 
         public RegisterVM()
         {
             this.StaffPersonalDetails = new StaffPersonalDetails();
-            this.Title = new List<Titles>
+            this.TitlesList = new List<SelectListItem>
             {
-                new Titles { Title = "Mr"},
-                new Titles { Title = "Ms"},
-                new Titles { Title = "Mrs"},
-                new Titles { Title = "Miss"},
-                new Titles { Title = "Dr"},
-                new Titles { Title = "Prof"}
+                new SelectListItem { Text = "Mr",Value="Mr"},
+                new SelectListItem { Text = "Ms",Value="Ms"},
+                new SelectListItem { Text = "Mrs",Value="Mrs"},
+                new SelectListItem { Text = "Dr",Value="Dr"},
+                new SelectListItem { Text = "Miss",Value="Miss"},
+                new SelectListItem { Text = "Prof",Value="Prof"}
             };
         }
 

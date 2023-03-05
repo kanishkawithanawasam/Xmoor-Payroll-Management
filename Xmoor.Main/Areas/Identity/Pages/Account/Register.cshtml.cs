@@ -181,7 +181,7 @@ namespace Xmoor.Main.Areas.Identity.Pages.Account
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
-                        return RedirectToPage("/Applicant", new { area = "APPLICANT" });
+                        return RedirectToPage("/Home/Index", new { area = "Applicant" });
                         //return LocalRedirect(returnUrl);*/
                     }
                 }

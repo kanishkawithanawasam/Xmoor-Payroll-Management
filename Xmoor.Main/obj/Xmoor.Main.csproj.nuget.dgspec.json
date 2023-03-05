@@ -204,7 +204,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Utility\\Xmoor.Utility.csproj": {
+                "projectPath": "D:\\Visual Studio Projects\\Xmoor Payroll Management\\Xmoor.Utility\\Xmoor.Utility.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
