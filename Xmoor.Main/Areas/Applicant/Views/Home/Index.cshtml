@@ -53,7 +53,7 @@
 
 <div class="mainContainer" id="mainContainer">
     @{
-        if (Model.StaffPersonalDetails==null || Model.regStatus == "INPROGRESS")
+        if (Model.RegistrationOpen)
         {
             <div class="grid" style="">
                 <!--This grid is used for new Employees-->
@@ -78,6 +78,8 @@
                 </div>
             </div>
         }
+
+
 
     }
 

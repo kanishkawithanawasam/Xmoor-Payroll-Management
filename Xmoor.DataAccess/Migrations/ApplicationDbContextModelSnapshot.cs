@@ -228,6 +228,31 @@ namespace Xmoor.DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Xmoor.Models.ApplicationUpdateHistory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ApplicationId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ApplicationStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApplicationId");
+
+                    b.ToTable("ApplicationUpdateHistory");
+                });
+
             modelBuilder.Entity("Xmoor.Models.Department", b =>
                 {
                     b.Property<int>("Id")
@@ -274,46 +299,36 @@ namespace Xmoor.DataAccess.Migrations
 
             modelBuilder.Entity("Xmoor.Models.Employment", b =>
                 {
-                    b.Property<int>("PayrollId")
+                    b.Property<int>("EmploymentId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PayrollId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EmploymentId"));
 
                     b.Property<bool>("ActiveEmployement")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("EmploymentIdChange")
                         .HasColumnType("bit");
 
                     b.Property<string>("IrregularPayment")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("OldPayrollId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PayrollIdChange")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("RoleId")
                         .HasColumnType("int");
+
+                    b.Property<string>("UserAgreement")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("departmentTableId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("staffId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("userAccountId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("PayrollId");
+                    b.HasKey("EmploymentId");
 
                     b.HasIndex("RoleId");
 
                     b.HasIndex("departmentTableId");
-
-                    b.HasIndex("staffId");
-
-                    b.HasIndex("userAccountId");
 
                     b.ToTable("Employments");
                 });
@@ -364,6 +379,122 @@ namespace Xmoor.DataAccess.Migrations
                     b.ToTable("Holidays");
                 });
 
+            modelBuilder.Entity("Xmoor.Models.RegistrationLog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ApplicationUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<bool>("EmploymentAgreement_Signed")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("EmploymentAgreement_SignedTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("EmploymentId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Registration_Completed")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("SalaryDetails_ConfirmedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("StaffDetailsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
+
+                    b.HasIndex("EmploymentId");
+
+                    b.HasIndex("StaffDetailsId");
+
+                    b.ToTable("RegistrationLog");
+                });
+
+            modelBuilder.Entity("Xmoor.Models.RoleApplications", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("RoleOpeningId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("coverLetter")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("cv")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Applications");
+                });
+
+            modelBuilder.Entity("Xmoor.Models.RoleOpennings", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CloseDate")
+                        .HasColumnType("date");
+
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("EditorId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsClosed")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("OpeningDate")
+                        .HasColumnType("date");
+
+                    b.Property<bool>("Published")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DepartmentId");
+
+                    b.HasIndex("EditorId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("RoleOpennings");
+                });
+
             modelBuilder.Entity("Xmoor.Models.Roles", b =>
                 {
                     b.Property<int>("RoleId")
@@ -372,8 +503,9 @@ namespace Xmoor.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoleId"));
 
-                    b.Property<int>("RoleName")
-                        .HasColumnType("int");
+                    b.Property<string>("RoleName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("RoleId");
 
@@ -466,61 +598,75 @@ namespace Xmoor.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1000L);
 
-                    b.Property<string>("Address")
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Country")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("DateOfBirth")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("date");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ForeignCountry")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("Gender")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("HomeNumber")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Initials")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("MobileNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("NationalInsuranceNumber")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("OtherForeNames")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("PostalCode")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("StreetAddress")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("folder")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("surname")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasKey("Id");
 
@@ -534,9 +680,8 @@ namespace Xmoor.DataAccess.Migrations
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
-                    b.Property<string>("DateOfBirth")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("date");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -549,11 +694,6 @@ namespace Xmoor.DataAccess.Migrations
                     b.Property<string>("OtherNames")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("staffId")
-                        .HasColumnType("int");
-
-                    b.HasIndex("staffId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -609,6 +749,17 @@ namespace Xmoor.DataAccess.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Xmoor.Models.ApplicationUpdateHistory", b =>
+                {
+                    b.HasOne("Xmoor.Models.RoleApplications", "applications")
+                        .WithMany()
+                        .HasForeignKey("ApplicationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("applications");
+                });
+
             modelBuilder.Entity("Xmoor.Models.Employment", b =>
                 {
                     b.HasOne("Xmoor.Models.Roles", "Roles")
@@ -623,23 +774,9 @@ namespace Xmoor.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Xmoor.Models.StaffPersonalDetails", "staffPersonalDetails")
-                        .WithMany()
-                        .HasForeignKey("staffId");
-
-                    b.HasOne("Xmoor.Models.ApplicationUser", "applicationUser")
-                        .WithMany()
-                        .HasForeignKey("userAccountId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Department");
 
                     b.Navigation("Roles");
-
-                    b.Navigation("applicationUser");
-
-                    b.Navigation("staffPersonalDetails");
                 });
 
             modelBuilder.Entity("Xmoor.Models.HolidayRecord", b =>
@@ -659,6 +796,69 @@ namespace Xmoor.DataAccess.Migrations
                     b.Navigation("Employment");
 
                     b.Navigation("Holidays");
+                });
+
+            modelBuilder.Entity("Xmoor.Models.RegistrationLog", b =>
+                {
+                    b.HasOne("Xmoor.Models.ApplicationUser", "applicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Xmoor.Models.Employment", "Employment")
+                        .WithMany()
+                        .HasForeignKey("EmploymentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Xmoor.Models.StaffPersonalDetails", "StaffPersonalDetails")
+                        .WithMany()
+                        .HasForeignKey("StaffDetailsId");
+
+                    b.Navigation("Employment");
+
+                    b.Navigation("StaffPersonalDetails");
+
+                    b.Navigation("applicationUser");
+                });
+
+            modelBuilder.Entity("Xmoor.Models.RoleApplications", b =>
+                {
+                    b.HasOne("Xmoor.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Xmoor.Models.RoleOpennings", b =>
+                {
+                    b.HasOne("Xmoor.Models.Department", "Department")
+                        .WithMany()
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Xmoor.Models.StaffPersonalDetails", "staffPersonalDetails")
+                        .WithMany()
+                        .HasForeignKey("EditorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Xmoor.Models.Roles", "Roles")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Department");
+
+                    b.Navigation("Roles");
+
+                    b.Navigation("staffPersonalDetails");
                 });
 
             modelBuilder.Entity("Xmoor.Models.Salary", b =>
@@ -681,15 +881,6 @@ namespace Xmoor.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("Employment");
-                });
-
-            modelBuilder.Entity("Xmoor.Models.ApplicationUser", b =>
-                {
-                    b.HasOne("Xmoor.Models.StaffPersonalDetails", "staffPersonalDetails")
-                        .WithMany()
-                        .HasForeignKey("staffId");
-
-                    b.Navigation("staffPersonalDetails");
                 });
 #pragma warning restore 612, 618
         }

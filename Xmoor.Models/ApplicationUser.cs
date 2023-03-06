@@ -6,17 +6,13 @@ namespace Xmoor.Models
 {
     public class ApplicationUser:IdentityUser
     {
-        public string FirstName { get; set; }
-        public string OtherNames { get; set; }
-        public string LastName { get; set; }
+        public string FirstName { get; set; } = string.Empty;
 
-        public string DateOfBirth { get; set; }
+        public string OtherNames { get; set; } = string.Empty;
 
-        public int? staffId { get; set; }
-        [ForeignKey(nameof(staffId))]
-        public StaffPersonalDetails staffPersonalDetails { get; set; }
+        public string LastName { get; set; } = string.Empty;
 
-        public string RegStatus = "UNREQUESTED";
+        public DateOnly DateOfBirth { get; set; }
 
         public string UserStatus = StaticDetails.Role_Applicant;
     }

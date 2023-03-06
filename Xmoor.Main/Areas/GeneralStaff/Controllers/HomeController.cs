@@ -43,20 +43,13 @@ namespace Xmoor.Main.Areas.GeneralStaff.Controllers
             int _employmentId;
             List<ShiftRecord> totalShifts;
             double totalHousrs = 0;
-        
+            var userId = _userManager.GetUserId(HttpContext.User);
+
 
             DateTime firstOfMonth = new DateTime(DateTime.Now.Year,DateTime.Now.Month,1);
 
 
-            //The following code takes the EmployementID  of the current user for the current employment
-            #pragma warning disable CS8602 // Dereference of a possibly null reference.
-            _employmentId =_db.ApplicationUser.Join(
-                _db.Employments, user => user.Id, employment => employment.userAccountId, 
-                (user, employment) => new{ ApplicationUser = user, Employment = employment}).FirstOrDefault(user=> user.ApplicationUser.Id == _userManager.GetUserId(HttpContext.User)).Employment.PayrollId;
-            #pragma warning restore CS8602 // Dereference of a possibly null reference.
-
-
-            
+            _employmentId = _db.RegistrationLog.Join(_db.Employments, regRec => regRec.EmploymentId, empRec => empRec.EmploymentId, (regRec, empRec) => new { RegistrationLog = regRec, Employment = empRec }).FirstOrDefault(rec => rec.RegistrationLog.ApplicationUserId == userId).Employment.EmploymentId;
             dashboard.shiftRecords = _db.ShiftRecords.OrderBy(x => x.SheduledEnd).Take(7).Where(x=>x.EmploymentId == _employmentId).ToList();
 
             

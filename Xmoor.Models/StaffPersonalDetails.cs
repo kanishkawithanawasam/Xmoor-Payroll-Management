@@ -16,54 +16,74 @@ namespace Xmoor.Models
 
         [Required]
         [DisplayName("National Insurance Number")]
-        public string NationalInsuranceNumber{ get; set; }
+        [MaxLength(20)]
+        public string NationalInsuranceNumber{ get; set; } = string.Empty;
 
         [Required]
-        public string Title { get; set; }
+        [MaxLength(10)]
+        public string Title { get; set; } = string.Empty;
 
         [Required]
         [DisplayName("First Name")]
-        public string FirstName { get; set; }
+        [MaxLength(20)]
+        public string FirstName { get; set; } = string.Empty;
 
         [DisplayName("Other Forenames")]
-        public string? OtherForeNames { get; set; }
+        [MaxLength(100)]
+        public string? OtherForeNames { get; set; } = string.Empty;
 
         [Required]
         [DisplayName("Surname/Last name")]
-        public string surname { get; set; }
+        [MaxLength(30)]
+        public string surname { get; set; } = string.Empty;
 
         [Required]
         [DisplayName("Initials")]
-        public string? Initials { get; set; } //Only needed if all full names are unknows
+        [MaxLength(10)]
+        public string? Initials { get; set; } = string.Empty; //Only needed if all full names are unknows
 
         [Required]
         [DisplayName("Date of Birth")]
-        public string DateOfBirth { get; set; }
+        [DataType(DataType.Date)]
+        public DateOnly  DateOfBirth { get; set; }
+
         [Required]
-        public string Gender { get; set; }
+        [MaxLength(10)]
+        public string Gender { get; set; } = string.Empty;
+
         [Required]
-        public string Address { get; set; }
+        [MaxLength(100)]
+        public string StreetAddress { get; set; } = string.Empty;
+
+        [Required]
+        [MaxLength(100)]
+        public string City { get; set; } = string.Empty;
+
+        [DisplayName("Foreign Country")]
+        public string Country { get; set; } = string.Empty;
 
         [Required]
         [DisplayName("Postal Code")]
-        public string PostalCode { get; set; }
-
-
-        [DisplayName("Foreign Country")]
-        public string ForeignCountry { get; set; }
+        [MaxLength(20)]
+        [DataType(DataType.PostalCode)]
+        //[RegularExpression("^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9][A-Za-z]?))))\\s?[0-9][A-Za-z]{2})", ErrorMessage ="Invalid Postal Code")]
+        public string PostalCode { get; set; } = string.Empty;
 
         [Required]
         [DisplayName("Moblile Number")]
-        public string MobileNumber { get; set; }
+        [MaxLength(50)]
+        [DataType(DataType.PhoneNumber)]
+        public string MobileNumber { get; set; } = string.Empty;
 
         [DisplayName("Home Number")]
-        public string? HomeNumber { get; set; }
+        [MaxLength(50)]
+        [DataType(DataType.PhoneNumber)]
+        public string? HomeNumber { get; set; } = string.Empty;
 
         [Required]
-        public string Email { get; set; }
-
-        public string? folder { get; set; }
-
+        [MaxLength(60)]
+        [DataType(DataType.EmailAddress)]
+        public string Email { get; set; } = string.Empty;
     }
 
 }

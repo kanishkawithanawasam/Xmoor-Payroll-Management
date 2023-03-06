@@ -21,8 +21,8 @@ namespace Xmoor.Main.Areas.Applicant.ViewModels
 
         public RegisterVM()
         {
-            this.StaffPersonalDetails = new StaffPersonalDetails();
-            this.TitlesList = new List<SelectListItem>
+            StaffPersonalDetails = new StaffPersonalDetails();
+            TitlesList = new List<SelectListItem>
             {
                 new SelectListItem { Text = "Mr",Value="Mr"},
                 new SelectListItem { Text = "Ms",Value="Ms"},

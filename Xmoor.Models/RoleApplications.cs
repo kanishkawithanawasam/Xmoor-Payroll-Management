@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 
 namespace Xmoor.Models
 {
-    public class Applications
+    public class RoleApplications
     {
         public int Id { get; set; }
+
         public int RoleOpeningId { get; set; }
         [ForeignKey(nameof(RoleOpeningId))]
 

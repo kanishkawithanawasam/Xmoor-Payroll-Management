@@ -158,7 +158,7 @@ namespace Xmoor.Main.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
-                    await _userManager.AddToRoleAsync(user,StaticDetails.Role_Applicant);
+                    await _userManager.AddToRoleAsync(user,/*StaticDetails.Role_Applicant*/ StaticDetails.Role_Manager);
 
                     _logger.LogInformation("User created a new account with password.");
 
