@@ -16,12 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/Applications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXEFwcGxpY2F0aW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/Home/RegisterPersonalDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXEhvbWVcUmVnaXN0ZXJQZXJzb25hbERldGFpbHMuY3NodG1s
+[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/_ViewImports.cshtml]
@@ -216,12 +216,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Manager/Views/RoleOpennings/CreateNew.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xSb2xlT3Blbm5pbmdzXENyZWF0ZU5ldy5jc2h0bWw=
+[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Manager/Views/RoleApplications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xSb2xlQXBwbGljYXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Manager/Views/RoleOpennings/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xSb2xlT3Blbm5pbmdzXEluZGV4LmNzaHRtbA==
+[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Manager/Views/RoleApplications/NewApplication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xSb2xlQXBwbGljYXRpb25zXE5ld0FwcGxpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Manager/Views/Shift/Index.cshtml]

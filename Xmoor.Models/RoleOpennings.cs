@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -18,16 +19,19 @@ namespace Xmoor.Models
         [DisplayName("Role Name")]
         public int RoleId { get; set; }
         [ForeignKey(nameof(RoleId))]
+        [ValidateNever]
         public Roles Roles { get; set; }
 
         [Required]
         [DisplayName("Department")]
         public int DepartmentId { get; set; }
         [ForeignKey(nameof(DepartmentId))]
+        [ValidateNever]
         public Department Department { get; set; }
 
         public int EditorId { get; set; }
         [ForeignKey(nameof (EditorId))]
+        [ValidateNever]
         public StaffPersonalDetails staffPersonalDetails { get; set; }
 
 

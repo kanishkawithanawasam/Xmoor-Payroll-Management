@@ -2,40 +2,36 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Data;
 using Xmoor.DataAccess;
 using Xmoor.Main.Areas.Manager.ViewModels;
 using Xmoor.Models;
+using Xmoor.Utility;
 
 namespace Xmoor.Main.Areas.Manager.Controllers
 {
     [Area("Manager")]
-    [Authorize(Roles ="Manager")]
-    public class RoleOpenningsController : Controller
+    public class RoleApplicationsController : Controller
     {
-
         private readonly ApplicationDbContext _db;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
 
-        public RoleOpenningsController(ApplicationDbContext db,UserManager<ApplicationUser> userManager,SignInManager<ApplicationUser> signInManager)
+        public RoleApplicationsController(ApplicationDbContext db, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
-            _userManager= userManager;
-            _signInManager  = signInManager;
             _db = db;
+            _userManager = userManager;
+            _signInManager = signInManager;
         }
-        [Authorize(Roles = "Manager")]
+
         public IActionResult Index()
         {
-            RoleOpenningsDashboardVM dashObj = new RoleOpenningsDashboardVM();
-
-            dashObj.RoleOpennings = _db.RoleOpennings.Where(r => r.IsClosed == false);
-
             return View();
         }
 
         [HttpGet]
-        [Authorize(Roles = "Manager")]
-        public IActionResult CreateNew()
+        [Authorize(Roles =StaticDetails.Role_Manager)]
+        public IActionResult NewApplication()
         {
             NewRoleVM roleVMObj = new NewRoleVM();
             roleVMObj.RoleList = _db.Roles.Select(
@@ -44,7 +40,7 @@ namespace Xmoor.Main.Areas.Manager.Controllers
                         Text = i.RoleName,
                         Value = i.RoleId.ToString()
                     }
-                ).ToList() ;
+                ).ToList();
             roleVMObj.DepartmentList = _db.Department.Select(
                     i => new SelectListItem
                     {
@@ -57,11 +53,13 @@ namespace Xmoor.Main.Areas.Manager.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Manager")]
-        public IActionResult CreateNew(NewRoleVM roleVMObj)
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = StaticDetails.Role_Manager)]
+        public IActionResult NewApplication(NewRoleVM roleVMObj)
         {
             if (_signInManager.IsSignedIn(User))
             {
+                roleVMObj.RoleOpenning.EditorId = (int)_db.RegistrationLog.FirstOrDefault(o => o.ApplicationUserId == (string)_userManager.GetUserId(User)).StaffDetailsId;
                 roleVMObj.RoleOpenning.Published = true;
                 if (!ModelState.IsValid)
                 {
@@ -76,7 +74,7 @@ namespace Xmoor.Main.Areas.Manager.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Manager")]
+        [Authorize(Roles = StaticDetails.Role_Manager)]
         public IActionResult SaveDraft(NewRoleVM roleVMObj)
         {
             if (_signInManager.IsSignedIn(User))
@@ -88,9 +86,11 @@ namespace Xmoor.Main.Areas.Manager.Controllers
                 }
                 _db.RoleOpennings.Add(roleVMObj.RoleOpenning);
                 _db.SaveChanges();
-            } 
+            }
             return RedirectToAction("Index");
         }
 
     }
+
 }
+

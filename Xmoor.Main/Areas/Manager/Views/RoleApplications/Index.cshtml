@@ -1,0 +1,28 @@
+﻿
+
+@{
+    ViewData["Title"] = "ApplicationDashboard";
+}
+
+@section CSS{
+    <style>
+        .mainContainer{
+            justify-content:center;
+        }
+
+        .dashHeader {
+            width:90%;
+            max-width:1000px;
+            box-shadow: 0 0 5px 1px;
+            border-radius:5px;
+        }
+    </style>
+}
+
+
+
+<div class="mainContainer">
+    <div class="dashHeader"> 
+        <a asp-area="Manager" asp-controller="RoleApplications" asp-action="NewApplication">New Application</a>
+    </div>
+</div>
