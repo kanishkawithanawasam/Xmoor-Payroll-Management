@@ -85,8 +85,11 @@ namespace Xmoor.Main.Areas.Identity.Pages.Account
             public bool RememberMe { get; set; }
         }
 
+        
+        
+
         public async Task OnGetAsync(string returnUrl = null)
-        {
+        { 
             if (!string.IsNullOrEmpty(ErrorMessage))
             {
                 ModelState.AddModelError(string.Empty, ErrorMessage);
@@ -116,7 +119,7 @@ namespace Xmoor.Main.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
-                    return RedirectToPage("/Home/Index", new { area = "Applicant" });
+                    return RedirectToAction("Index", "Applications", new { area = "Applicant" });
                     //return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)

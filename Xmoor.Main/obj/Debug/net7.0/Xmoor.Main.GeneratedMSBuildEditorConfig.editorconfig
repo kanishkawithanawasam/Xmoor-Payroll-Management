@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXEFwcGxpY2F0aW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/Applications/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXEFwcGxpY2F0aW9uc1xTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXFJlZ2lzdGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/Register/RegisterPersonalDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXBwbGljYW50XFZpZXdzXFJlZ2lzdGVyXFJlZ2lzdGVyUGVyc29uYWxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio Projects/Xmoor Payroll Management/Xmoor.Main/Areas/Applicant/Views/_ViewImports.cshtml]

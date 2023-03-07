@@ -34,6 +34,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\hh\Controllers\" />
+    <Folder Include="Areas\hh\Data\" />
+    <Folder Include="Areas\hh\Models\" />
+    <Folder Include="Areas\hh\Views\" />
     <Folder Include="wwwroot\media\" />
   </ItemGroup>
 </Project>

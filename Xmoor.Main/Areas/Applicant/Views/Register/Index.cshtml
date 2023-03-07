@@ -8,8 +8,10 @@
             margin-left: auto !important;
             margin-right: auto !important;
             display: flex;
-            width: fit-content;
+            width: 90%;
+            max-width: 1200px;
             margin: 30px;
+            justify-content: left;
         }
 
         .grid {
@@ -38,35 +40,39 @@
             font-weight: 600;
         }
 
-        .flexRow a:hover,
-        .flexRow a:active {
-            background: aliceblue;
-            color: rgb(45, 45, 61);
-        }
+            .flexRow a:hover,
+            .flexRow a:active {
+                background: aliceblue;
+                color: rgb(45, 45, 61);
+            }
 
         .flexRow p {
             margin: 0;
             padding: 5px;
         }
 
-        .navigetor{
-            display:flex;
-            justify-content:right;
+        .navigator {
+            display: flex;
+            justify-content: right;
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px;
+            box-shadow: 0 0 5px 2px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .navigetor a{
-            margin-right:10px;
-            padding:10px;
-        }
+            .navigator a {
+                margin-right: 10px;
+                padding: 10px;
+            }
     </style>
 }
 
+<div class="navigator">
+    <a asp-area="Applicant" asp-controller="Applications" asp-action="Index">Search Applications</a>
+</div>
 <div class="mainContainer" id="mainContainer">
-
-    <div class="navigator">
-        <a asp-area="Applicant" asp-controller="Applications" asp-action="Index"></a>
-    </div>
-
     @{
         if (Model.RegistrationOpen)
         {
@@ -93,31 +99,43 @@
                 </div>
             </div>
         }
+        else
+        {
+            <div style="width:100%;">
+
+                <h1>Pending Applications</h1>
+                <hr />
+
+
+                <h1>Rejected Applications</h1>
+                <hr />
+            </div>
+        }
 
 
 
     }
 
 
-   @* <div class="grid">
-        <!--This grid is used for Applicants-->
-        <div style="grid-column: 1/span 2;">
-            <h1 style="margin-bottom: 20px;">Employee Dashboard</h1>
-            <hr>
-        </div>
-        <div class="itemGroup2_EmployeeView">
-            <div class="flexRow">
-                <div style="width: 100%;"><h4>Holiday Record</h4></div>
-                <div><p>Register and Confirm Personal Details</p> </div>
-                <div><a href="" type="button">COMPLETE TASK</a></div>
-            </div>
-        </div>
-        <div class="itemGroup2_EmployeeView">
-            <div class="flexRow">
-                <div><p>Register Payroll Details</p> </div>
-                <div><a href="" type="button">COMPLETE TASK</a></div>
-            </div>
-        </div>
+    @* <div class="grid">
+    <!--This grid is used for Applicants-->
+    <div style="grid-column: 1/span 2;">
+    <h1 style="margin-bottom: 20px;">Employee Dashboard</h1>
+    <hr>
+    </div>
+    <div class="itemGroup2_EmployeeView">
+    <div class="flexRow">
+    <div style="width: 100%;"><h4>Holiday Record</h4></div>
+    <div><p>Register and Confirm Personal Details</p> </div>
+    <div><a href="" type="button">COMPLETE TASK</a></div>
+    </div>
+    </div>
+    <div class="itemGroup2_EmployeeView">
+    <div class="flexRow">
+    <div><p>Register Payroll Details</p> </div>
+    <div><a href="" type="button">COMPLETE TASK</a></div>
+    </div>
+    </div>
     </div>*@
 </div>
 

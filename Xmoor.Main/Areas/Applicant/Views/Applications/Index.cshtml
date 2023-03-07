@@ -1,95 +1,13 @@
-﻿@using Xmoor.Main.Areas.Applicant.ViewModels;
-@model RegisterVM
-@{
-    ViewData["Title"] = "Register Personal Details";
-}
-
-@section CSS{
-
-
-
-    <style>
-        .mainContainer {
-            text-align: centre;
-            width: 100%;
-            margin-bottom: 20px !important;
-        }
-
-        #registerForm {
-            display: grid;
-            width: 100%;
-            grid-template-columns: 40% 40%;
-            max-width: 1000px;
-            justify-content: center;
-            margin-left: auto;
-            margin-right: auto;
-            column-gap: 30px !important;
-            row-gap: 20px;
-        }
-
-        #buttonContainer {
-            width: 100%;
-            display: flex;
-            grid-column: 1/span 2;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-    </style>
-}
-
-
-<div class="mainContainer">
-    <!--Registration for,-->
-    <form id="registerForm" asp-antiforgery="true" asp-action="Create">
-
-
-        <label asp-for="StaffPersonalDetails.Title"></label>
-        <!--Options for the list are defined at "RegisterVM" of the applicant-->
-        <select asp-for="StaffPersonalDetails.Title" asp-items="@Model.TitlesList">
-            <option disabled selected>PLEASE SELECT</option>
-        </select>
-
-
-        <label asp-for="StaffPersonalDetails.FirstName"></label>
-        <input asp-for="StaffPersonalDetails.FirstName" />
-
-        <label asp-for="StaffPersonalDetails.OtherForeNames"></label>
-        <input asp-for="StaffPersonalDetails.OtherForeNames" />
-
-        <label asp-for="StaffPersonalDetails.surname"></label>
-        <input asp-for="StaffPersonalDetails.surname" />
-
-        <label asp-for="StaffPersonalDetails.Initials"></label>
-        <input asp-for="StaffPersonalDetails.Initials" />
-
-        <label asp-for="StaffPersonalDetails.Email"></label>
-        <input asp-for="StaffPersonalDetails.Email" />
-
-        <label asp-for="StaffPersonalDetails.NationalInsuranceNumber"></label>
-        <input asp-for="StaffPersonalDetails.NationalInsuranceNumber" />
-
-        <label asp-for="StaffPersonalDetails.DateOfBirth"></label>
-        <input asp-for="StaffPersonalDetails.DateOfBirth" type="date" />
-
-        <label asp-for="StaffPersonalDetails.PostalCode"></label>
-        <input asp-for="StaffPersonalDetails.PostalCode" />
-
-        <label asp-for="StaffPersonalDetails.Country"></label>
-        <input asp-for="StaffPersonalDetails.Country" />
-
-        <label asp-for="StaffPersonalDetails.MobileNumber"></label>
-        <input asp-for="StaffPersonalDetails.MobileNumber" />
-
-        <label asp-for="StaffPersonalDetails.HomeNumber"></label>
-        <input asp-for="StaffPersonalDetails.HomeNumber" />
-
-        <div id="buttonContainer">
-            <input type="submit" value="Submit" style="margin-right:20px;" />
-            <input type="submit" value="SaveDraft" />
-        </div>
-
-    </form>
+﻿<div class="navigator">
+    <a asp-area="Applicant" asp-controller="Applications" asp-action="Search">Search Applications</a>
 </div>
-<br />
-<br />
+
+<div style="width:100%;">
+
+    <h1>Pending Applications</h1>
+    <hr />
+
+
+    <h1>Rejected Applications</h1>
+    <hr />
+</div>
