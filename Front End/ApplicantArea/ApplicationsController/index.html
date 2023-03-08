@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css" />
+
+
+    <style>
+        .searchBarContainer{
+            justify-content: right;
+            width: 90%;
+            max-width: 1000px;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            box-shadow: 0 0 5px 2px;
+            padding: 10px;
+            margin: 20px;
+            min-height: 100vh;
+            border-radius: 5px;
+        }
+        .search{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 230px;
+        }
+
+        .search input{
+            padding: 10px;
+            font-size: 1rem;
+        }
+
+        .searchButton{
+            background-color: rgb(35, 35, 71);
+            color: white;
+            border-radius: 5px;
+        }
+
+        .searchResultsContainer{
+            display: grid;
+            row-gap: 10px;
+            margin-top: 20px;
+        }
+
+        .resultItem{
+            display: grid;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            grid-template-columns: 1fr 200px;
+            border: 2px solid rgb(65, 65, 78);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .resultItem a{
+            text-decoration: none;
+            color: white;
+            background-color: rgb(53, 53, 65);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .viewButtonContainer{
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            padding-right: 40px;
+        }
+        .roleDescription{
+            display: grid;
+        }
+        .roleDescription ul{
+            margin: 10px;
+        }
+        .roleDescription li{
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="searchBarContainer">
+        <br>
+        <form class="search" action="" style="width: 100%;">
+            <input id="searchString" type="text" class="searchString">
+            <input type="submit" class="searchButton" value="Search" style="margin-left: 10px;">
+        </form>
+        <br>
+        <hr>
+    
+        <!--Search Results Container-->
+        <div class="searchResultsContainer">
+    
+    
+            <!--=Search Result Item-->
+            <div class="resultItem">
+                <div class="roleDescription">
+                    <h3>Finance Manager</h3>
+                    <ul>
+                        <li><b>Salary: </b> £34000 per annum</li>
+                        <li><b>Hours: </b> 36 hours per week</li>
+                        <li><b>Pension: </b> Government and Company</li>
+                        <li><b>Sick Pay: </b> Yes</li>
+                    </ul>
+                </div>
+                <div class="viewButtonContainer"><a href="http://">View Job</a></div>
+            </div>
+    
+            <!--=Search Result Item-->
+            <div class="resultItem">
+                <div class="roleDescription">
+                    <h3>Finance Manager</h3>
+                    <ul>
+                        <li><b>Salary: </b> £34000 per annum</li>
+                        <li><b>Hours: </b> 36 hours per week</li>
+                        <li><b>Pension: </b> Government and Company</li>
+                        <li><b>Sick Pay: </b> Yes</li>
+                    </ul>
+                </div>
+                <div class="viewButtonContainer"><a href="http://">View Job</a></div>
+            </div>
+    
+            <!--=Search Result Item-->
+            <div class="resultItem">
+                <div class="roleDescription">
+                    <h3>Finance Manager</h3>
+                    <ul>
+                        <li><b>Salary: </b> £34000 per annum</li>
+                        <li><b>Hours: </b> 36 hours per week</li>
+                        <li><b>Pension: </b> Government and Company</li>
+                        <li><b>Sick Pay: </b> Yes</li>
+                    </ul>
+                </div>
+                <div class="viewButtonContainer"><a href="http://">View Job</a></div>
+            </div>
+    
+            <!--=Search Result Item-->
+            <div class="resultItem">
+                <div class="roleDescription">
+                    <h3>Finance Manager</h3>
+                    <ul>
+                        <li><b>Salary: </b> £34000 per annum</li>
+                        <li><b>Hours: </b> 36 hours per week</li>
+                        <li><b>Pension: </b> Government and Company</li>
+                        <li><b>Sick Pay: </b> Yes</li>
+                    </ul>
+                </div>
+                <div class="viewButtonContainer"><a href="http://">View Job</a></div>
+            </div>
+        </div>
+    
+    </div>
+
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#searchString").autocomplete({
+                source: 'api/Search/Search'
+            })
+        });
+    </script>
+
+</body>
+</html>

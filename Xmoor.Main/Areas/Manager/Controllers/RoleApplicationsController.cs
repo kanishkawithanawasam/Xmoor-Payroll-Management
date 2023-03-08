@@ -63,6 +63,21 @@ namespace Xmoor.Main.Areas.Manager.Controllers
                 roleVMObj.RoleOpenning.Published = true;
                 if (!ModelState.IsValid)
                 {
+                    roleVMObj.RoleList = _db.Roles.Select(
+                   i => new SelectListItem
+                   {
+                       Text = i.RoleName,
+                       Value = i.RoleId.ToString()
+                   }
+               ).ToList();
+                    roleVMObj.DepartmentList = _db.Department.Select(
+                            i => new SelectListItem
+                            {
+                                Text = i.Name,
+                                Value = i.Id.ToString()
+                            }
+                        ).ToList();
+                    roleVMObj.RoleOpenning = new RoleOpennings();
                     return View(roleVMObj);
                 }
                 _db.RoleOpennings.Add(roleVMObj.RoleOpenning);

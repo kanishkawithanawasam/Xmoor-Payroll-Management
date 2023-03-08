@@ -41,24 +41,39 @@
 
     <form id="registerForm" method="post" asp-action="NewApplication">
         <h1 class="span2">Create New Job Application</h1>
+
+        <label asp-for="RoleOpenning.Title"></label>
+        <input asp-for="RoleOpenning.Title" />
+
         <label asp-for="RoleOpenning.RoleId"></label>
         <select asp-for="RoleOpenning.RoleId" asp-items="@Model.RoleList">
             <option selected disabled>PLEASE SELECT</option>
         </select>
-
-        <label class="span2" asp-for="RoleOpenning.Description"></label>
-        <textarea class="span2" asp-for=RoleOpenning.Description rows="30" style="width:100%;resize:none;padding:10px;"></textarea>
 
         <label asp-for="RoleOpenning.DepartmentId"></label>
         <select asp-for="RoleOpenning.DepartmentId" asp-items="@Model.DepartmentList">
             <option selected disabled>PLEASE SELECT</option>
         </select>
 
+        <label class="span2" asp-for="RoleOpenning.Description"></label>
+        <textarea class="span2" asp-for=RoleOpenning.Description rows="30" style="width:100%;resize:none;padding:10px;"></textarea>
+
+        
+
+        <label asp-for="RoleOpenning.Salary"></label>
+        <input asp-for="RoleOpenning.Salary" />
+
+        <label asp-for="RoleOpenning.WorkingHours"></label>
+        <input asp-for="RoleOpenning.WorkingHours" />
+
         <label asp-for="RoleOpenning.OpeningDate"></label>
-        <input asp-for=RoleOpenning.OpeningDate type="date" id="txtDate" />
+        <input asp-for="RoleOpenning.OpeningDate" type="date" id="txtDate" />
 
         <label asp-for="RoleOpenning.CloseDate"></label>
         <input asp-for="RoleOpenning.CloseDate" type="date" id="txtDate" />
+
+        <label asp-for="RoleOpenning.KeyWords"></label>
+        <input asp-for="RoleOpenning.KeyWords" />
 
         <div id="#buttonContainer">
             <button type="submit">PUBLISH</button>
@@ -87,7 +102,6 @@
             // or instead:
             // var maxDate = dtToday.toISOString().substr(0, 10);
 
-            alert(maxDate);
             $('#txtDate').attr('min', maxDate);
         });
     </script>

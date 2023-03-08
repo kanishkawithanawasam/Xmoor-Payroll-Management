@@ -288,15 +288,6 @@ D:\Visual Studio Projects\Bulb-Payroll-Management\Bulb.Main\obj\Debug\net7.0\ref
 D:\Visual Studio Projects\Bulb-Payroll-Management\Bulb.Main\obj\Debug\net7.0\Xmoor.Main.pdb
 D:\Visual Studio Projects\Bulb-Payroll-Management\Bulb.Main\obj\Debug\net7.0\Xmoor.Main.genruntimeconfig.cache
 D:\Visual Studio Projects\Bulb-Payroll-Management\Bulb.Main\obj\Debug\net7.0\ref\Xmoor.Main.dll
-D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.csproj.AssemblyReference.cache
-D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.GeneratedMSBuildEditorConfig.editorconfig
-D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.AssemblyInfoInputs.cache
-D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.AssemblyInfo.cs
-D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.csproj.CoreCompileInputs.cache
-D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.MvcApplicationPartsAssemblyInfo.cs
-D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.MvcApplicationPartsAssemblyInfo.cache
-D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.RazorAssemblyInfo.cache
-D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.RazorAssemblyInfo.cs
 D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\bin\Debug\net7.0\appsettings.Development.json
 D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\bin\Debug\net7.0\appsettings.json
 D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\bin\Debug\net7.0\Xmoor.Main.staticwebassets.runtime.json
@@ -562,6 +553,15 @@ D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\bin\Debug\net7.0\X
 D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\bin\Debug\net7.0\Xmoor.DataAccess.pdb
 D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\bin\Debug\net7.0\Xmoor.Models.pdb
 D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\bin\Debug\net7.0\Xmoor.Utility.pdb
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.AssemblyInfo.cs
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.MvcApplicationPartsAssemblyInfo.cs
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.MvcApplicationPartsAssemblyInfo.cache
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.RazorAssemblyInfo.cache
+D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\Xmoor.Main.RazorAssemblyInfo.cs
 D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\staticwebassets\msbuild.Xmoor.Main.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\staticwebassets\msbuild.build.Xmoor.Main.props
 D:\Visual Studio Projects\Xmoor Payroll Management\Xmoor.Main\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Xmoor.Main.props

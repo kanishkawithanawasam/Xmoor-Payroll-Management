@@ -5,11 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"] - Xmoor</title>
+
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" asp-append-version="true">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js" asp-append-version="true"></script>
+
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+    
+
+
     <!--Favcon-->
     <link rel="apple-touch-icon" sizes="180x180" href="~/favcon/apple-touch-icon.png" asp-append-version="true">
     <link rel="icon" type="image/png" sizes="32x32" href="~/favcon/favicon-32x32.png" asp-append-version="true">
@@ -17,6 +26,7 @@
     <link rel="shortcut icon" href="~/favcon/favicon.ico" type="image/x-icon" asp-append-version="true">
     <link rel="manifest" href="~/favcon/site.webmanifest" asp-append-version="true">
     <link rel="mask-icon" href="~/favcon/safari-pinned-tab.svg" color="#5bbad5" asp-append-version="true">
+
     <meta name="msapplication-TileColor" content="#da532c" >
     <meta name="theme-color" content="#ffffff">
     @await RenderSectionAsync("CSS", required: false)
@@ -45,9 +55,8 @@
             All rights Reserved
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+    
 </body>
 </html>

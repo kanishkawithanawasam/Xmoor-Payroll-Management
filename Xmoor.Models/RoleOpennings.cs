@@ -15,6 +15,22 @@ namespace Xmoor.Models
         public int Id { get; set; }
 
 
+        [MaxLength(100)]
+        [Required]
+        [DisplayName("Job Title")]
+        public string Title { get; set; }
+
+        [MaxLength(100)]
+        [Required]
+        [DisplayName("Salary")]
+        public string Salary { get; set; }
+
+        [MaxLength(100)]
+        [Required]
+        [DisplayName("Working Hours")]
+        public string WorkingHours { get; set; }
+
+
         [Required]
         [DisplayName("Role Name")]
         public int RoleId { get; set; }
@@ -50,5 +66,10 @@ namespace Xmoor.Models
         [DisplayName("Description")]
         [DataType(DataType.MultilineText)]
         public string? Description { get; set; }
+
+        [MaxLength(100)]
+        [Required]
+        [DisplayName("Key Words")]
+        public string KeyWords { get; set; }
     }
 }
